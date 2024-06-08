@@ -1,83 +1,35 @@
+# Prime Gym Website 🏋️‍♂️
 
-# X-Wave POE Marketplace
+Welcome to Prime Gym, your ultimate destination for high-quality fitness equipment! This website is designed to provide you with an immersive shopping experience, offering a range of top-notch products to elevate your fitness journey.
 
-## Description
+## Features 🚀
 
-This project is a decentralized marketplace built on the Celo blockchain, allowing users to list and purchase products using cUSD. The marketplace leverages smart contracts for secure and transparent transactions.
+- **Product Showcase:** Explore our extensive collection of fitness equipment, including treadmills, dumbbell sets, and more!
+- **Easy Purchasing:** Simply click on the "Buy" button to make a purchase, and start your fitness transformation right away.
+- **Responsive Design:** Our website is built using Bootstrap, ensuring seamless navigation and compatibility across all devices.
 
-## Features
+## Getting Started 🛠️
 
-- Connect to a Celo wallet.
-- Display user balance in cUSD.
-- List all available products.
-- Add new products to the marketplace.
-- Purchase products using cUSD.
+To get started with Prime Fitness, follow these simple steps:
 
-## Installation
-
-To get started with this project, follow these steps:
-
-1. **Clone the Repository**
+1. **Clone the Repository:** Clone this repository to your local machine using Git.
+2. **Open `index.html`:** Navigate to the project directory and open the `index.html` file in your preferred web browser.
 
    ```bash
-   git clone https://github.com/yourgithubusername/celo-boilerplate-web-dapp.git
-   cd celo-boilerplate-web-dapp
-   ```
-
-2. **Pick your poison**
-
-   ```bash
-   npm install
-   ```
-    ```bash
    yarn install
    ```
 
-3. **Run the Development Server**
+## Usage 💡
 
-    ```bash
-   npm start
-   ```
-     ```bash
-   yarn start
-   ```
-   This will run the development server at `http://localhost:9000`.
+- **Discover Products:** Browse through our product catalog on the homepage and read detailed descriptions to find the perfect fitness gear for your needs.
+- **Make a Purchase:** Ready to commit to your fitness goals? Simply click on the "Buy" button next to the product you wish to purchase, and proceed with the checkout process.
 
+## Dependencies 📦
 
-## Usage
+- **Bootstrap:** Utilizing the power of Bootstrap for sleek and responsive design.
+- **jQuery:** Incorporating jQuery for dynamic interactions and smooth user experience.
+- **Celo ContractKit:** Enabling secure and efficient transactions through Celo's ContractKit.
 
-After starting the development server, navigate to `http://localhost:9000` in your web browser. Ensure that your Celo wallet extension is installed and set up.
+## Contribute 🤝
 
-- Click on **Connect Celo Wallet** to connect your wallet to the DApp.
-- Once connected, your balance will be displayed, and you can interact with the marketplace.
-
-## Contract Interaction
-
-The project uses a smart contract deployed on the Celo network at the address `0x7E0efb852B65d4bD3856fdC250fed80523eDC329`. The smart contract allows for listing and purchasing products.
-
-### Adding a Product
-
-- Fill in the product details in the **Add Product** modal and submit.
-- The product will be listed in the marketplace upon successful transaction confirmation.
-
-### Purchasing a Product
-
-- Click on the **Buy** button for the desired product.
-- Approve the transaction from your Celo wallet.
-- Upon successful purchase, the product will be marked as sold.
-
-## Troubleshooting
-
-If you encounter any issues with the DApp, check the following:
-
-- Ensure that the Celo wallet extension is active and properly configured.
-- Check the browser console for errors related to network connections or transactions.
-- Ensure that the smart contract address and ABI are correctly configured in your project.
-
-## Contributing
-
-Contributions to this project are welcome. Please fork the repository and submit a pull request with your features or fixes.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+We welcome contributions from the community to enhance Prime Fitness and make it even more robust! Whether you're passionate about fitness or a web development enthusiast, there's a place for you in our project.
